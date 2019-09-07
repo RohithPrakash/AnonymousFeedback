@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>AnonymousFeedbackWebApp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>StudentLoginValidate</servlet-name>
+  	<servlet-class>StudentLoginValidate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StudentLoginValidate</servlet-name>
+  	<url-pattern>/StudentLoginValidate</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>FacultyLoginValidate</servlet-name>
+  	<servlet-class>FacultyLoginValidate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FacultyLoginValidate</servlet-name>
+  	<url-pattern>/FacultyLoginValidate</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>FacultyDropdown</servlet-name>
+  	<servlet-class>FacultyDropdown</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FacultyDropdown</servlet-name>
+  	<url-pattern>/GiveFeedback</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>SubmitFeedback</servlet-name>
+  	<servlet-class>SubmitFeedback</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SubmitFeedback</servlet-name>
+  	<url-pattern>/SubmitFeedback</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>FetchFeedback</servlet-name>
+  	<servlet-class>FetchFeedback</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FetchFeedback</servlet-name>
+  	<url-pattern>/FetchFeedback</url-pattern>
+  </servlet-mapping>
+</web-app>
