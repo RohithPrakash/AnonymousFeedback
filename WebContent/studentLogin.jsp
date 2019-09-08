@@ -59,7 +59,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div class="col-sm-10 col-md-8 col-lg-6 col-xs-10 col-10 mx-auto">
         <div class="card card-signin my-5">
           <div class="card-body p-4">
             <h5 class="card-title text-center text-uppercase">Student
